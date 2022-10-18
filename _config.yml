@@ -1,6 +1,8 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Penya 3K" # the name of your site, e.g. ACME Corp.
+title: "A. G. Penya 3K" # the name of your site, e.g. ACME Corp.
+logo: /assets/img/logo.jpg
+description: Página web de la Asociación Gastronómica Penya 3K.
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
