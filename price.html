@@ -1,0 +1,23 @@
+---
+layout: default
+permalink: lista-de-precios
+---
+
+<div class="prices">
+  <h1 class="prices__title">Lista de precios</h1>
+  <div class="prices__list">
+    {% for item in site.data.prices %}
+    <div class="prices__list--item {% cycle '', 'prices__list--item__bg' %}">
+      <div class="prices__list--item-icon">
+        <i class="fa-solid fa-{{ item.icon }}"></i>
+      </div>
+      <div class="prices__list--item-label">
+        {{ item.label }}
+      </div>
+      <div class="prices__list--item-cost">
+        {{ item.cost }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
